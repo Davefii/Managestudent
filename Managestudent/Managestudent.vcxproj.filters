@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Lib">
+      <UniqueIdentifier>{970bafae-963f-4e2c-a6de-a4d2ff85354a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Main Menu Student">
+      <UniqueIdentifier>{0f93538b-9ecc-47f8-bd26-bd0025e14a24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Login Screen">
+      <UniqueIdentifier>{bafa4ebe-cf5a-4915-aa7a-88486173c1c1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Managestudent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="clsMainMenuScreen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Global.cpp">
+      <Filter>Header Files\Lib</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="clsStudent.h">
+      <Filter>Header Files\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="clsAddNewStudent.h">
+      <Filter>Header Files\Main Menu Student</Filter>
+    </ClInclude>
+    <ClInclude Include="clsListStudent.h">
+      <Filter>Header Files\Main Menu Student</Filter>
+    </ClInclude>
+    <ClInclude Include="clsMainMenuScreen.h">
+      <Filter>Header Files\Main Menu Student</Filter>
+    </ClInclude>
+    <ClInclude Include="clsDeleteStudent.h">
+      <Filter>Header Files\Main Menu Student</Filter>
+    </ClInclude>
+    <ClInclude Include="clsUpdateStudent.h">
+      <Filter>Header Files\Main Menu Student</Filter>
+    </ClInclude>
+    <ClInclude Include="clsFindStudnet.h">
+      <Filter>Header Files\Main Menu Student</Filter>
+    </ClInclude>
+    <ClInclude Include="clsloginScreen.h">
+      <Filter>Header Files\Login Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="Global.h">
+      <Filter>Header Files\Lib</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
